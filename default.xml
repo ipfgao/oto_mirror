@@ -4,6 +4,7 @@
   <!-- From GitHub repositories -->
   <remote  name="github" fetch=".." />
 
+  <project name="openthos/OTO" remote="github" revision="multiwindow-oreo" />
   <project path="kernel" name="openthos/oto_kernel" remote="github" revision="multiwindow-oreo" />
   <project path="bionic" name="openthos/oto_bionic" remote="github" revision="multiwindow-oreo" />
   <project path="bootable/newinstaller" name="openthos/oto_bootable_newinstaller" remote="github" revision="multiwindow-oreo-good" />
