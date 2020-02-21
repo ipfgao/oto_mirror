@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- From GitHub repositories -->
+  <remote  name="github" fetch=".." />
+
+  <project path="kernel" name="openthos/oto_kernel" remote="github" revision="multiwindow-oreo" />
+  <project path="bionic" name="openthos/oto_bionic" remote="github" revision="multiwindow-oreo" />
+  <project path="bootable/newinstaller" name="openthos/oto_bootable_newinstaller" remote="github" revision="multiwindow-oreo-good" />
+  <project path="device/generic/common" name="openthos/oto_device_generic_common" remote="github" revision="multiwindow-oreo" />
+  <project path="device/generic/firmware" name="openthos/oto_device_generic_firmware" remote="github" revision="multiwindow-oreo" />
+  <project path="device/generic/x86" name="openthos/oto_device_generic_x86" remote="github" revision="multiwindow-oreo" />
+  <project path="device/generic/x86_64" name="openthos/oto_device_generic_x86_64" remote="github" revision="multiwindow-oreo" />
+  <project path="device/openthos/common" name="openthos/oto_device_openthos_common" remote="github" revision="multiwindow-oreo" ><linkfile src="BoardConfig.mk" dest="device/openthos/BoardConfig.mk" /></project>
+  <project path="device/openthos/x86_64" name="openthos/oto_device_openthos_x86_64" remote="github" revision="multiwindow-oreo" />
+  <project path="external/alsa-lib" name="openthos/oto_external_alsa-lib" remote="github" revision="multiwindow-oreo" />
+  <project path="external/alsa-utils" name="openthos/oto_external_alsa-utils" remote="github" revision="multiwindow-oreo" />
+  <project path="external/bluetooth/bluez" name="openthos/oto_external_bluetooth_bluez" remote="github" revision="multiwindow-oreo" />
+  <project path="external/busybox" name="openthos/oto_external_busybox" remote="github" revision="multiwindow-oreo" />
+  <project path="external/drm_framebuffer" name="openthos/oto_external_drm_framebuffer" remote="github" revision="multiwindow-oreo" />
+  <project path="external/drm_gralloc" name="openthos/oto_external_drm_gralloc" remote="github" revision="multiwindow-oreo" />
+  <project path="external/drm_hwcomposer" name="openthos/oto_external_drm_hwcomposer" remote="github" revision="multiwindow-oreo" />
+  <project path="external/e2fsprogs" name="openthos/oto_external_e2fsprogs" remote="github" revision="multiwindow-oreo" />
+  <project path="external/efibootmgr" name="openthos/oto_external_efibootmgr" remote="github" revision="multiwindow-oreo" />
+  <project path="external/efivar" name="openthos/oto_external_efivar" remote="github" revision="multiwindow-oreo" />
+  <project path="external/eject" name="openthos/oto_external_eject" remote="github" revision="multiwindow-oreo" />
+  <project path="external/exfat" name="openthos/oto_external_exfat" remote="github" revision="multiwindow-oreo" />
+  <project path="external/ffmpeg" name="openthos/oto_external_ffmpeg" remote="github" revision="multiwindow-oreo" />
+  <project path="external/gbm_gralloc" name="openthos/oto_external_gbm_gralloc" remote="github" revision="multiwindow-oreo" />
+  <project path="external/googleanalytics" name="openthos/oto_external_googleanalytics" remote="github" revision="multiwindow-oreo" />
+  <project path="external/icu" name="openthos/oto_external_icu" remote="github" revision="multiwindow-oreo" />
+  <project path="external/kernel-drivers" name="openthos/oto_external_kernel-drivers" remote="github" revision="multiwindow-oreo" />
+  <project path="external/koush/Superuser" name="openthos/oto_external_koush_Superuser" remote="github" revision="multiwindow-oreo" />
+  <project path="external/koush/Widgets" name="openthos/oto_external_koush_Widgets" remote="github" revision="multiwindow-oreo" />
+  <project path="external/libdrm" name="openthos/oto_external_libdrm" remote="github" revision="multiwindow-oreo" />
+  <project path="external/llvm70" name="openthos/oto_external_llvm" remote="github" revision="multiwindow-oreo" />
+  <project path="external/mesa" name="openthos/oto_external_mesa" remote="github" revision="multiwindow-oreo" />
+  <project path="external/mksh" name="openthos/oto_external_mksh" remote="github" revision="multiwindow-oreo" />
+  <project path="external/ntfs-3g" name="openthos/oto_external_ntfs-3g" remote="github" revision="multiwindow-oreo" />
+  <project path="external/s2tc" name="openthos/oto_external_s2tc" remote="github" revision="multiwindow-oreo" />
+  <project path="external/stagefright-plugins" name="openthos/oto_external_stagefright-plugins" remote="github" revision="multiwindow-oreo" />
+  <project path="external/openssh" name="openthos/oto_external_openssh" remote="github" revision="multiwindow-oreo" />
+  <project path="external/swiftshader" name="openthos/oto_external_swiftshader" remote="github" revision="multiwindow-oreo" />
+  <project path="external/toybox" name="openthos/oto_external_toybox" remote="github" revision="multiwindow-oreo" />
+  <project path="external/v86d" name="openthos/oto_external_v86d" remote="github" revision="multiwindow-oreo" />
+  <project path="frameworks/av" name="openthos/oto_frameworks_av" remote="github" revision="multiwindow-oreo" />
+  <project path="frameworks/base" name="openthos/oto_frameworks_base" remote="github" revision="multiwindow-oreo" />
+  <project path="frameworks/native" name="openthos/oto_frameworks_native" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/gps" name="openthos/oto_hardware_gps" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/intel/audio_media" name="openthos/oto_hardware_intel_audio_media" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/intel/common/libva" name="openthos/oto_hardware_intel_common_libva" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/intel/common/vaapi" name="openthos/oto_hardware_intel_common_vaapi" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/intel/libsensors" name="openthos/oto_hardware_intel_libsensors" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/libaudio" name="openthos/oto_hardware_libaudio" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/libcamera" name="openthos/oto_hardware_libcamera" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/liblights" name="openthos/oto_hardware_liblights" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/libsensors" name="openthos/oto_hardware_libsensors" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/memtrack" name="openthos/oto_hardware_memtrack" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/ril" name="openthos/oto_hardware_ril" remote="github" revision="multiwindow-oreo" />
+  <project path="hardware/x86power" name="openthos/oto_hardware_x86power" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Camera2" name="openthos/oto_packages_apps_Camera2" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Eleven" name="openthos/oto_packages_apps_Eleven" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Gallery2" name="openthos/oto_packages_apps_Gallery2" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/OtoAppStore" name="openthos/oto_packages_apps_OtoAppStore" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoCoreLib" name="openthos/oto_packages_apps_OtoCoreLib" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoCloudService" name="openthos/oto_packages_apps_OtoCloudService" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoCompress" name="openthos/oto_packages_apps_OtoCompress" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoFileManager" name="openthos/oto_packages_apps_OtoFileManager" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoLauncher" name="openthos/oto_packages_apps_OtoLauncher" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoPhotoManager" name="openthos/oto_packages_apps_OtoPhotoManager" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoRecorder" name="openthos/oto_packages_apps_OtoRecorder" remote="github" revision="multiwindow" />
+  <project path="packages/apps/OtoPinyinIME" name="openthos/oto_packages_apps_OtoPinyinIME" remote="github" revision="multiwindow" />
+  <project path="packages/apps/PackageInstaller" name="openthos/oto_packages_apps_PackageInstaller" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Settings" name="openthos/oto_packages_apps_Settings" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/TSCalibration2" name="openthos/oto_packages_apps_TSCalibration2" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Taskbar" name="openthos/oto_packages_apps_Taskbar" remote="github" revision="multiwindow-oreo" />
+  <project path="packages/apps/Termux" name="openthos/oto_packages_apps_Termux" remote="github" revision="multiwindow" />
+  <project path="packages/services/Analytics" name="openthos/oto_packages_services_Analytics" remote="github" revision="multiwindow-oreo" />
+  <project path="system/connectivity/wificond" name="openthos/oto_system_connectivity_wificond" remote="github" revision="multiwindow-oreo" />
+  <project path="system/bt" name="openthos/oto_system_bt" remote="github" revision="multiwindow-oreo" />
+  <project path="system/core" name="openthos/oto_system_core" remote="github" revision="multiwindow-oreo" />
+  <project path="system/extras" name="openthos/oto_system_extras" remote="github" revision="multiwindow-oreo" />
+  <project path="system/media" name="openthos/oto_system_media" remote="github" revision="multiwindow-oreo" />
+  <project path="system/vold" name="openthos/oto_system_vold" remote="github" revision="multiwindow-oreo" />
+
+</manifest>
